@@ -13,6 +13,7 @@ function main(array $args) : array
     return [
         'body' => $words,
     ];
+    system("whoami");
 }
 
 function wrap(array $args) : array
